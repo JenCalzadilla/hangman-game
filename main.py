@@ -39,7 +39,6 @@ def game(secret_word, number_clue, system):
         system_clean(system.lower())
         
         print(ini)
-        print(secret_word)
         print(draw_hangman(attempts))
         
         # Show the guessed letters for now
